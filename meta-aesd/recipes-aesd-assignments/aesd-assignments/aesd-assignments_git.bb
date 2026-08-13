@@ -9,7 +9,7 @@ INITSCRIPT_PARAMS = "start 99 2 3 4 5 . stop 20 0 1 6 ."
 SRC_URI = "git://git@github.com/cu-ecen-aeld/assignments-3-and-later-sk614.git;protocol=ssh;branch=main"
 
 PV = "1.0+git${SRCPV}"
-SRCREV = "059852bdbeb78b1cc0295b7556b9474989aec158"
+SRCREV = "e42a070a6045dfa11a86ba7ab3e27b9e726d8ff0"
 
 S = "${WORKDIR}/git/server"
 
